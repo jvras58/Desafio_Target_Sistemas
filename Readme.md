@@ -37,19 +37,32 @@ Essas e outras libs e tecnologias usadas neste projeto são:
 ├─📁 .devcontainer     ->  Configurações do devcontainer
 ├─📁 .vscode           ->  Definições de ambiente para o VSCode
 ├─📁 docs              ->  Artefatos para documentação do repo
-├─📁 src               ->  [Implementação da Desafio] 
-│   │   ├── 📁 functions            -> functions para o playground
-│   │       ...
-│   ├─🐍 playground.py              -> Entrypoint
-│   │       ...
-├── 📁 tests                -> testes para a aplicação
-│   │       ...
-│   ...
+├─📁 src               ->  [Implementação da Desafio]
+│ │ ├─🐍 playground.py              -> Entrypoint
+│ │ ...
+│ ├─📁 assets               ->  [recursos externos]
+│ │ │ ├─📁 imgs             ->  [Imagens utilizadas pela Aplicação]
+│ │ │ │   ...
+│ │ │ ├─📁 lang             ->  [Config TOML utilizado pela Aplicação]
+│ │ │ │   ├─⚙️ ui_labels.toml         -> toml para Ui da Aplicação
+│ │ │ │   ...
+│ │ ├─📁 config             -> [Configurações da Aplicação]
+│ │ │ │   ├─🐍 redis_conect.py       -> Conexão com Redis
+│ │ │ │   ...
+│ │ ├─📁 page               -> [Paginas]
+│ │ │     ├─🐍 home.py               -> Pagina Home
+│ │ │     ├─🐍 tarefa_x.py           -> Pagina de tarefa x
+│ │ │     ...
+│ │ ├─📁 config             -> [Configurações/Funções da Aplicação]
+│ │ │ │   ├─🐍 load.py              -> Funções utilitárias
+│ │ │ ├─📁 functions        ->  [Funçoes para Aplicação]
+│ │ │ │   ├─🐍 xxxx.py              -> Funções para Aplicação
+│ │ │ │   ...
+│ │ ...
 ├─📄 .gitignore
 ├─📄 Makefile          ->  Automações para o ambiente
 ├─📄 pyproject.toml    ->  Definições para o projeto
 ├─📄 README.md
-└─📄 ruff.toml         ->  Regras de linter e formatter
 
 ```
 

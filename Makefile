@@ -19,5 +19,4 @@ update:
 	@$(MAKE) venv
 
 playground:
-	export PYTHONPATH=src && \
 	streamlit run src/playground.py

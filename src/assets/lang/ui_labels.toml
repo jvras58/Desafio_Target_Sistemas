@@ -1,0 +1,14 @@
+[home]
+titulo = "Painel Desafio Target"
+subtitulo = "Desafio para vaga de Estagio na Target"
+introducao_painel = "O Painel está dividido em paginas por Menu, onde cada aba representa uma tarefa atribuida no desafio."
+
+introducao_dataset = "Escrever Intro para a analise dos dados fornecidos........."
+
+[tarefa_1]
+titulo = "Cálculo da Soma"
+descricao = "A primeira tarefa consiste em criar um código que calcule a soma de todos os números pares de 0 a 1000."
+
+[tarefa_2]
+titulo = "Verificação de Número na Sequência de Fibonacci"
+descricao = "A segunda tarefa consiste em criar um codigo que verifica se um número é parte da sequência de Fibonacci."
