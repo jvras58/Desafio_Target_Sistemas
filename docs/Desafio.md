@@ -57,14 +57,14 @@ Crie um programa que analise um vetor com valores de faturamento diário e deter
    - [x] Leia o vetor de faturamento diário a partir de um arquivo JSON ou XML.
 
 2. **Cálculo dos Valores:**
-   - [ ] Calcule o menor e o maior valor de faturamento.
-   - [ ] Calcule a média mensal considerando apenas os dias com faturamento.
+   - [x] Calcule o menor e o maior valor de faturamento.
+   - [x] Calcule a média mensal considerando apenas os dias com faturamento.
 
 3. **Contagem dos Dias Acima da Média:**
-   - [ ] Conte o número de dias em que o faturamento foi superior à média mensal.
+   - [x] Conte o número de dias em que o faturamento foi superior à média mensal.
 
 4. **Resultado:**
-   - [ ] Imprima os resultados obtidos.
+   - [x] Imprima os resultados obtidos.
 
 ---
 
