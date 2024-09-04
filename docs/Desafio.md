@@ -31,16 +31,16 @@ Escreva um programa para verificar se um número informado pertence à sequênci
 **Checkpoints:**
 
 1. **Implementação da Sequência de Fibonacci:**
-   - [ ] Crie uma função para gerar a sequência de Fibonacci até o número informado ou até que o número seja encontrado.
+   - [x] Crie uma função para gerar a sequência de Fibonacci até o número informado ou até que o número seja encontrado.
 
 2. **Entrada do Usuário:**
-   - [ ] Implemente a entrada do número, seja através de input do usuário ou uma variável pré-definida.
+   - [x] Implemente a entrada do número, seja através de input do usuário ou uma variável pré-definida.
 
 3. **Verificação de Pertencimento:**
-   - [ ] Compare o número informado com os valores gerados na sequência de Fibonacci.
+   - [x] Compare o número informado com os valores gerados na sequência de Fibonacci.
 
 4. **Mensagem de Resultado:**
-   - [ ] Imprima uma mensagem indicando se o número pertence ou não à sequência de Fibonacci.
+   - [x] Imprima uma mensagem indicando se o número pertence ou não à sequência de Fibonacci.
 
 ---
 

@@ -1,10 +1,12 @@
 """Módulo EntryPoint da aplicação"""
 
 from functions.calcularSoma import calcular_soma
+from functions.fibonacci import e_fibonacci_num
 import streamlit as st
 
 
-st.title("Playground - Desafio")
+st.set_page_config(page_title='Playground - Desafio')
+
 
 st.sidebar.header("Escolha uma Tarefa")
 opcao = st.sidebar.selectbox(
@@ -23,9 +25,17 @@ if opcao == "1":
         resultado = calcular_soma(indice, soma, k)
         st.write(f"O valor final de SOMA é: {resultado}")
 
-
 elif opcao == "2":
-    st.subheader("A2")
+    st.subheader("Tarefa 2: Verificação de Número na Sequência de Fibonacci")
+
+    numero = st.number_input("Informe um número", min_value=0, value=0)
+
+    if st.button("Verificar Número"):
+        if e_fibonacci_num(numero):
+            st.write(f"O número {numero} pertence à sequência de Fibonacci.")
+        else:
+            st.write(f"O número {numero} não pertence à sequência de Fibonacci.")
+
 
 elif opcao == "3":
     st.subheader("A3")
