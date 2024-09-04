@@ -15,11 +15,11 @@ Imprimir(SOMA);
 **Checkpoints:**
 
 1. Entenda o funcionamento do laço `Enquanto` (ou `while` em outras linguagens):
-   - [ ] O laço incrementa `K` e adiciona o valor de `K` a `SOMA` até que `K` seja igual a `INDICE`.
+   - [x] O laço incrementa `K` e adiciona o valor de `K` a `SOMA` até que `K` seja igual a `INDICE`.
    
-2. Calcule o valor final de `SOMA` manualmente ou com uma ferramenta de simulação.
+2. [x] Calcule o valor final de `SOMA` manualmente ou com uma ferramenta de simulação.
 
-3. [ ] Verifique o resultado e garanta que está correto. 
+3. [x] Verifique o resultado e garanta que está correto. 
 
 ---
 
