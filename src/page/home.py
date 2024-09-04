@@ -28,4 +28,4 @@ def show_page() -> None:
         )
 
     st.subheader(labels['home']['subtitulo'])
-    st.write(labels['home']['introducao_dataset'])
+    st.write(labels['home']['GitHub'])
