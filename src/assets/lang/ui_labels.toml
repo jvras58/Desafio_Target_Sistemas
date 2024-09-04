@@ -13,10 +13,9 @@ descricao = "A primeira tarefa consiste em criar um código que calcule a soma d
 titulo = "Verificação de Número na Sequência de Fibonacci"
 descricao = "A segunda tarefa consiste em criar um codigo que verifica se um número é parte da sequência de Fibonacci."
 
-
-
-
-
+[tarefa_3]
+titulo = "Análise de Faturamento Diário"
+descricao = "A terceira tarefa consiste em criar um código que analise o faturamento diário de uma empresa."
 
 [tarefa_5]
 titulo = "Inversão de String"

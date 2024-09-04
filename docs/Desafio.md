@@ -54,7 +54,7 @@ Crie um programa que analise um vetor com valores de faturamento diário e deter
 **Checkpoints:**
 
 1. **Importação dos Dados:**
-   - [ ] Leia o vetor de faturamento diário a partir de um arquivo JSON ou XML.
+   - [x] Leia o vetor de faturamento diário a partir de um arquivo JSON ou XML.
 
 2. **Cálculo dos Valores:**
    - [ ] Calcule o menor e o maior valor de faturamento.
@@ -101,10 +101,10 @@ Escreva um programa que inverta os caracteres de uma string.
 **Checkpoints:**
 
 1. **Entrada da String:**
-   - [ ] Implemente a entrada da string, seja através de input do usuário ou uma variável pré-definida.
+   - [x] Implemente a entrada da string, seja através de input do usuário ou uma variável pré-definida.
 
 2. **Inversão dos Caracteres:**
-   - [ ] Desenvolva um algoritmo para inverter a string sem usar funções prontas, como `reverse`.
+   - [x] Desenvolva um algoritmo para inverter a string sem usar funções prontas, como `reverse`.
 
 3. **Resultado:**
-   - [ ] Imprima a string invertida.
+   - [x] Imprima a string invertida.
