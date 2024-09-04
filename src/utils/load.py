@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Any
 
-import pandas as pd
+import json
 import streamlit as st
 import toml
 from PIL import Image
@@ -63,28 +63,20 @@ def load_toml(toml_file: str) -> dict[Any, Any]:
 
 
 @st.cache_data
-def load_dataset(dataset_name: str) -> pd.DataFrame:
-    """Carrega um conjunto de dados de um arquivo csv.
+def load_json(json_name: str) -> dict:
+    """Carrega um conjunto de dados de um arquivo json.
 
     Parameters
     ----------
-    dataset_name : str
+    json_name : str
         Nome do conjunto de dados a ser carregado.
 
     Returns
     -------
-    pd.DataFrame
+    dict
         Conjunto de dados carregado.
 
     """
-    return pd.read_csv(
-        Path(get_project_root()) / f'src/data/{dataset_name}.csv',
-    )
-
-
-@st.cache_data
-def load_exemple() -> list[str]:
-    """Carrega de um arquivo csv."""
-    exemple = load_dataset('')
-
-    return exemple
+    with open(Path(get_project_root()) / f'src/data/{json_name}.json', 'r') as file:
+        data = json.load(file)
+    return data

@@ -1,9 +1,9 @@
 [home]
 titulo = "Painel Desafio Target"
-subtitulo = "Desafio para vaga de Estagio na Target"
+subtitulo = "De uma Conferida no Menu ao Lado"
 introducao_painel = "O Painel está dividido em paginas por Menu, onde cada aba representa uma tarefa atribuida no desafio."
 
-introducao_dataset = "Escrever Intro para a analise dos dados fornecidos........."
+GitHub = "Acesse o Repositório no GitHub: https://github.com/jvras58/Desafio_Target_Sistemas"
 
 [tarefa_1]
 titulo = "Cálculo da Soma"
@@ -13,10 +13,9 @@ descricao = "A primeira tarefa consiste em criar um código que calcule a soma d
 titulo = "Verificação de Número na Sequência de Fibonacci"
 descricao = "A segunda tarefa consiste em criar um codigo que verifica se um número é parte da sequência de Fibonacci."
 
-
-
-
-
+[tarefa_3]
+titulo = "Análise de Faturamento Diário"
+descricao = "A terceira tarefa consiste em criar um código que analise o faturamento diário de uma empresa a partir do json carregado."
 
 [tarefa_5]
 titulo = "Inversão de String"
