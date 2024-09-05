@@ -9,12 +9,12 @@
 
 
 ## 📖 Sobre o Projeto
-O projeto consiste em uma aplicação Web com Python e banco de dados Redis para resolver as questões do Desafio da Vaga na Target Sistemas mais informações [Ver](docs/Desafio.md)
+O projeto consiste em uma aplicação Web com Python para resolver as questões do Desafio da Vaga na Target Sistemas mais informações [Ver](docs/Desafio.md)
 
 
 ## 🚀 Tecnologias e Ferramentas
 
-A aplicação foi desenvolvida em Python com interface Streamlit e utiliza o Redis, um armazenamento de estrutura de dados em memória conhecido por sua alta performance e flexibilidade. O Redis pode atuar como um banco de dados simples.
+A aplicação foi desenvolvida em Python com interface Streamlit.
 
 ## Stack do Projeto
 
@@ -45,9 +45,6 @@ Essas e outras libs e tecnologias usadas neste projeto são:
 │ │ │ │   ...
 │ │ │ ├─📁 lang             ->  [Config TOML utilizado pela Aplicação]
 │ │ │ │   ├─⚙️ ui_labels.toml         -> toml para Ui da Aplicação
-│ │ │ │   ...
-│ │ ├─📁 config             -> [Configurações da Aplicação]
-│ │ │ │   ├─🐍 redis_conect.py       -> Conexão com Redis
 │ │ │ │   ...
 │ │ ├─📁 page               -> [Paginas]
 │ │ │     ├─🐍 home.py               -> Pagina Home
@@ -108,7 +105,7 @@ $> poetry install
 
 ### Principais comandos:
 
-#### Levantar a tela de comandos do redis com python
+#### Levantar a aplicação
 ```
 $> make playground
 ```

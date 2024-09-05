@@ -4,17 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Jvras <jonathas.vinicius@ufpe.br>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
 redis = "^5.0.8"
 streamlit = "^1.37.1"
-
-
-[tool.ruff]
-line-length = 79
-extend-exclude = ['migrations']
 
 [tool.ruff.lint]
 preview = true
