@@ -19,7 +19,7 @@ descricao = "A terceira tarefa consiste em criar um código que analise o fatura
 
 [tarefa_4]
 titulo = "Cálculo da Representação Percentual por Estado"
-descricao = "A quarta tarefa consiste em criar um código que analise o faturamento diário de uma empresa a partir do json carregado."
+descricao = "A quarta tarefa consiste em criar um código que apresente o percentual de representação de cada estado a partir do csv carregado."
 
 [tarefa_5]
 titulo = "Inversão de String"
