@@ -17,6 +17,10 @@ descricao = "A segunda tarefa consiste em criar um codigo que verifica se um nú
 titulo = "Análise de Faturamento Diário"
 descricao = "A terceira tarefa consiste em criar um código que analise o faturamento diário de uma empresa a partir do json carregado."
 
+[tarefa_4]
+titulo = "Cálculo da Representação Percentual por Estado"
+descricao = "A quarta tarefa consiste em criar um código que apresente o percentual de representação de cada estado a partir do csv carregado."
+
 [tarefa_5]
 titulo = "Inversão de String"
 descricao = "A quinta tarefa consiste criar um algoritmo que reverta a string fornecida sem usar funções prontas."
