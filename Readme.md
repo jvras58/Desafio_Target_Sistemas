@@ -18,14 +18,13 @@ A aplicação foi desenvolvida em Python com interface Streamlit.
 
 ## Stack do Projeto
 
-Este projeto é uma aplicação web simples que utiliza o Redis, uma biblioteca de armazenamento de estrutura de dados em memória NoSQL, e o Streamlit, uma biblioteca open-source em Python que permite a criação de aplicativos web para análise de dados de forma extremamente rápida. O objetivo é demonstrar as capacidades e a integração do Streamlit com o `redis-py`.
+Este projeto é uma aplicação web simples utilizando Streamlit, uma biblioteca open-source em Python que permite a criação de aplicativos web para análise de dados de forma extremamente rápida. O objetivo é demonstrar as capacidades em resolver os desafios e apresentar uma interface interativa para o usuario.
 
 Essas e outras libs e tecnologias usadas neste projeto são:
 |  Lib      | Versão    |
 |-----------|-----------|
 | **Runtime**           |
 | Python    | v3.12.x   |
-| redis     | v5.0.x    |
 | **Devtime**           |
 | Ruff                          | v0.4.x    |
 | Docker Engine                 | vx.x.x    |
