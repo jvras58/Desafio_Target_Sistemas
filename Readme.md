@@ -104,7 +104,7 @@ $> poetry install
 
 ### Principais comandos:
 
-#### Levantar a tela de comandos do redis com python
+#### Levantar a aplicação
 ```
 $> make playground
 ```
@@ -116,4 +116,9 @@ $> poetry add <<nome_da_lib>>
 
 # Adicionar uma nova lib para o ambiente de desenvolvimento
 $> poetry add <<nome_da_lib>> --group dev
+```
+### Aplicação Online por 3 meses no Render:
+
+```http
+https://desafio-target-sistemas.onrender.com/
 ```
