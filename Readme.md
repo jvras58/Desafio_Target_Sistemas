@@ -9,7 +9,7 @@
 
 
 ## 📖 Sobre o Projeto
-O projeto consiste em uma aplicação Web com Python e banco de dados Redis para resolver as questões do Desafio da Vaga na Target Sistemas mais informações [Ver](docs/Desafio.md)
+O projeto consiste em uma aplicação Web com Python resolver as questões do Desafio da Vaga na Target Sistemas mais informações [Ver](docs/Desafio.md)
 
 
 ## 🚀 Tecnologias e Ferramentas
