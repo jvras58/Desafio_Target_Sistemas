@@ -83,13 +83,13 @@ Calcule o percentual de representação de cada estado no valor total mensal da 
 **Checkpoints:**
 
 1. **Cálculo do Valor Total:**
-   - [ ] Some os valores de faturamento dos estados e o valor "Outros".
+   - [x] Some os valores de faturamento dos estados e o valor "Outros".
 
 2. **Cálculo do Percentual:**
-   - [ ] Calcule o percentual de cada estado em relação ao valor total.
+   - [x] Calcule o percentual de cada estado em relação ao valor total.
 
 3. **Resultado:**
-   - [ ] Imprima o percentual de representação de cada estado.
+   - [x] Imprima o percentual de representação de cada estado.
 
 ---
 
