@@ -14,18 +14,17 @@ O projeto consiste em uma aplicação Web com Python e banco de dados Redis para
 
 ## 🚀 Tecnologias e Ferramentas
 
-A aplicação foi desenvolvida em Python com interface Streamlit e utiliza o Redis, um armazenamento de estrutura de dados em memória conhecido por sua alta performance e flexibilidade. O Redis pode atuar como um banco de dados simples.
+A aplicação foi desenvolvida em Python com interface Streamlit
 
 ## Stack do Projeto
 
-Este projeto é uma aplicação web simples que utiliza o Redis, uma biblioteca de armazenamento de estrutura de dados em memória NoSQL, e o Streamlit, uma biblioteca open-source em Python que permite a criação de aplicativos web para análise de dados de forma extremamente rápida. O objetivo é demonstrar as capacidades e a integração do Streamlit com o `redis-py`.
+Este projeto é uma aplicação web simples que utiliza o Streamlit, uma biblioteca open-source em Python que permite a criação de aplicativos web para análise de dados de forma extremamente rápida. O objetivo é demonstrar as capacidades e a integração do Streamlit com a resolução dos desafios propostos.
 
 Essas e outras libs e tecnologias usadas neste projeto são:
 |  Lib      | Versão    |
 |-----------|-----------|
 | **Runtime**           |
 | Python    | v3.12.x   |
-| redis     | v5.0.x    |
 | **Devtime**           |
 | Ruff                          | v0.4.x    |
 | Docker Engine                 | vx.x.x    |
@@ -46,14 +45,11 @@ Essas e outras libs e tecnologias usadas neste projeto são:
 │ │ │ ├─📁 lang             ->  [Config TOML utilizado pela Aplicação]
 │ │ │ │   ├─⚙️ ui_labels.toml         -> toml para Ui da Aplicação
 │ │ │ │   ...
-│ │ ├─📁 config             -> [Configurações da Aplicação]
-│ │ │ │   ├─🐍 redis_conect.py       -> Conexão com Redis
-│ │ │ │   ...
 │ │ ├─📁 page               -> [Paginas]
 │ │ │     ├─🐍 home.py               -> Pagina Home
 │ │ │     ├─🐍 tarefa_x.py           -> Pagina de tarefa x
 │ │ │     ...
-│ │ ├─📁 config             -> [Configurações/Funções da Aplicação]
+│ │ ├─📁 utils             -> [Configurações/Funções da Aplicação]
 │ │ │ │   ├─🐍 load.py              -> Funções utilitárias
 │ │ │ ├─📁 functions        ->  [Funçoes para Aplicação]
 │ │ │ │   ├─🐍 xxxx.py              -> Funções para Aplicação
